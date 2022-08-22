@@ -58,9 +58,9 @@ align-items: ${({ aCenter, aBetween, aEnd }) => (
     aEnd ? "flex-end" :
     "initial"
     )};
-width: ${({ fullW, mFullW }) => (
+width: ${({ fullw, mFullW }) => (
     mFullW ? "100%" :
-    fullW ? "100%" :
+    fullw ? "100%" :
     "fit-content"
     )};
 color: ${({ mainFont }) => (mainFont ? mainColor : lightColor)};
@@ -84,9 +84,9 @@ height: ${({ fullh, mFullH }) => (
 
 
 @media (min-width: 530px){
-  width: ${({ fullW, dFullW }) => (
+  width: ${({ fullw, dFullW }) => (
     dFullW ? "100%" :
-    fullW ? "100%" :
+    fullw ? "100%" :
     "fit-content"
     )};
   height: ${({ fullh, dFullH }) => (

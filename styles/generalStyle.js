@@ -122,13 +122,13 @@ align-self: ${({ sCenter, sBetween, sStart, sEnd, mSStart, mSCenter, mSBetween, 
     sStart ? "flex-start" :
     "initial"
 )};
-height: ${({ screenH, fullH, mScreenH, mFit, fit, mFullH, zeroH, image1H,
+height: ${({ screenH, fullh, mScreenH, mFit, fit, mFullH, zeroH, image1H,
 image3H, text2H, image5H, image6H, text5H, text7H, text10H }) => (
     mScreenH ? "100vh" :
     mFullH ? "100%" :
     mFit ? "fit-content" :
     zeroH ? "0px" : 
-    fullH ? "100%" :
+    fullh ? "100%" :
     fit ? "fit-content" :
     text10H ? "336px" :
     text7H ? "53px" :
@@ -541,13 +541,13 @@ order: ${({ mOrder1, mOrder2 }) => (
   mOrder2 ? "2" : 
   "0"
 )};
-height: ${({ screenH, fullH, mScreenH, mFit, fit, mFullH, zeroH, image1H,
+height: ${({ screenH, fullh, mScreenH, mFit, fit, mFullH, zeroH, image1H,
 image3H, text2H, image5H, image6H, text5H, text7H, text10H }) => (
     mScreenH ? "100vh" :
     mFullH ? "100%" :
     mFit ? "fit-content" :
     zeroH ? "0px" : 
-    fullH ? "100%" :
+    fullh ? "100%" :
     fit ? "fit-content" :
     text10H ? "336px" :
     text7H ? "53px" :
@@ -754,13 +754,13 @@ dM15b, dM1l }) => (
     dM254br ? "0 2.5rem 4rem 0" :
     "0"
 )};
-height: ${({ screenH, fullH, dScreenH, dFit, fit, dFullH, zeroH, image1H,
+height: ${({ screenH, fullh, dScreenH, dFit, fit, dFullH, zeroH, image1H,
 image3H, text2H, image5H, image6H, text5H, text7H, text10H }) => (
     dScreenH ? "100vh" :
     dFullH ? "100%" :
     dFit ? "fit-content" :
     zeroH ? "0px" : 
-    fullH ? "100%" :
+    fullh ? "100%" :
     fit ? "fit-content" :
     text10H ? "336px" :
     text7H ? "50px" :
@@ -958,13 +958,13 @@ overflow: ${({ hide, scroll, dHide, dScroll }) => (
     scroll ? "scroll" : 
     "initial"
 )};
-height: ${({ screenH, fullH, dScreenH, dFit, fit, dFullH, zeroH, image1H,
+height: ${({ screenH, fullh, dScreenH, dFit, fit, dFullH, zeroH, image1H,
 image3H, text2H, image5H, image6H, text5H, text7H, text10H }) => (
     dScreenH ? "100vh" :
     dFullH ? "100%" :
     dFit ? "fit-content" :
     zeroH ? "0px" : 
-    fullH ? "100%" :
+    fullh ? "100%" :
     fit ? "fit-content" :
     text10H ? "336px" :
     text7H ? "54px" :
@@ -1285,13 +1285,13 @@ ddM125l, dM1l, dddM1125l }) => (
     dM254br ? "0 2.5rem 4rem 0" :
     "0"
 )};
-height: ${({ screenH, fullH, dScreenH, dFit, fit, dFullH, zeroH, image1H,
+height: ${({ screenH, fullh, dScreenH, dFit, fit, dFullH, zeroH, image1H,
 image3H, text2H, image5H, image6H, text5H, text7H, text10H }) => (
     dScreenH ? "100vh" :
     dFullH ? "100%" :
     dFit ? "fit-content" :
     zeroH ? "0px" : 
-    fullH ? "100%" :
+    fullh ? "100%" :
     fit ? "fit-content" :
     text10H ? "336px" :
     text7H ? "65px" :
