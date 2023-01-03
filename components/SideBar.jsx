@@ -14,7 +14,7 @@ export default function SideBar ({ data, open, setOpen }) {
     {/** FRAMER MOTION VARIANT FOR SIDEBAR TRANSITION */}
     const variants = {
         opacity: { opacity: [0, 1], transition: { duration: 0.2 } },
-        slideIn: { top: [-164, 0], transition: { duration: 0.1, delay: 0.1 } },
+        slideIn: { top: [-400, 0], transition: { duration: 0.1, delay: 0.1 } },
     };
 
     return(
@@ -23,7 +23,7 @@ export default function SideBar ({ data, open, setOpen }) {
         onClick={() => setOpen(true)} variants={variants} animate={open ? 'opacity' : {opacity: 0}}>
 
             <AsideMotion lightbg="true" relative="true" fullh="true" block="true" fullw="true" onClick={() => setOpen(true)}
-            variants={variants} noShow={!open} z10="true" animate={open ? 'slideIn' : {top: -164}}>
+            variants={variants} noShow={!open} z10="true" animate={open ? 'slideIn' : {top: -400}}>
 
                 <Container block="true" fullw="true" fit="true" mM1b dM1125b>
                     {

@@ -2,6 +2,11 @@ import Head from 'next/head';
 import GlobalStyle from "../styles/globalStyle";
 import { darkBg } from "../styles/props";
 
+/** 
+ * VERCEL URL: https://oris-frontend.vercel.app 
+ * GITHUB URL: https://github.com/christopheresivwekpe/oris-frontend 
+**/
+
 export default function Layout({ children }) {
 
   return (
@@ -42,7 +47,7 @@ export default function Layout({ children }) {
         <meta property="twitter:image:alt" content="Oris logo"/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet" />
       </Head>
 
